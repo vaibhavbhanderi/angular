@@ -1,0 +1,112 @@
+<app-header></app-header>
+<h1>Hello {{ title }}</h1>
+<h2>{{ data }}</h2>
+<!-- <h4>{{ getValue() }}</h4> -->
+<app-login></app-login>
+<button (click)="getValue()">click Me 2</button><br/>
+<button (click)="mysecond('okay sir...!!', 'bhanderi')">click Me 1</button>
+<button (click)="mythird(123)">click me</button>
+<button (click)="myfunction(true)">click me</button>
+<br/><br/>
+<input
+  type="text"
+  #box
+  (blur)="getData(box.value)"
+  placeholder="typing something here"
+/>
+
+<h1 (mouseover)="getData('over')">Vaibhav bhanderi</h1>
+
+<!-- get value from text box  -->
+
+<input type="text" #box1 placeholder="Enter Name" name="name"/>
+<button (click)="getValueinput(box1.value)">click Me</button>
+
+<p>box value is: {{ displayvalue }}</p>
+
+<!-- make counter -->
+<button (click)="counter('add')">++</button> <br/><br/>
+<p>{{ count }}</p>
+<button (click)="counter('min')">--</button>
+<br/><br/>
+<!-- property binding -->
+<input
+  type="text"
+  name="user-name"
+  value="{{ name }}"
+  disabled="{{ disable }}"
+/>
+<br/><br/>
+<input type="text" name="user-name" [value]="name" [disabled]="disable"/>
+
+<!--if else-->
+<h1 *ngIf="show==='vaibhav'; then ifblock else elseblock"></h1>
+<ng-template #ifblock>
+  <h2>my true condintion</h2>
+</ng-template>
+
+<ng-template #elseblock>
+  <h2>nothing mutch</h2>
+</ng-template>
+
+<!--multiple condintion if or else if -->
+<!--<ng-template [ngIf]="color==='red'">-->
+<!--  <h2 style="color: red">vaibhav</h2>-->
+<!--</ng-template>-->
+<!--<ng-template [ngIf]="color==='green'">-->
+<!--  <h2 style="color: green">vaibhav</h2>-->
+<!--</ng-template>-->
+<!--<ng-template [ngIf]="color==='yellow'">-->
+<!--  <h2 style="color: yellow">vaibhav</h2>-->
+<!--</ng-template>-->
+
+<!--switch case-->
+<div [ngSwitch]="color">
+  <h2 *ngSwitchCase="'red'" style="color: red">red colour</h2>
+  <h2 *ngSwitchCase="'yellow'" style="color: yellow">red colour</h2>
+  <h2 *ngSwitchCase="'black'" style="color: black">red colour</h2>
+  <h2 *ngSwitchCase="'purple'" style="color: purple">red colour</h2>
+  <h2 *ngSwitchCase="'skyblue'" style="color: aqua">red colour</h2>
+  <h2 *ngSwitchDefault style="color: red">Un known color</h2>
+
+</div>
+
+<!--for loop-->
+<!--<h3 *ngFor="let item of users">name is :{{item}}</h3>-->
+<!--<h3 *ngFor="let item of usersDetailes">name is :{{item.name}}&#45;&#45;email is {{item.email}}&#45;&#45;phoneNo:{{item.phoneNo}}</h3>-->
+
+<ul *ngFor="let item of users">
+  <li>{{item.name}}</li>
+  <li>{{item.email}}</li>
+  <ul *ngFor="let  val of item.socialaccount" style="list-style: none">
+    <li>{{val.instragram}}</li>
+    <li>{{val.linkdin}}</li>
+    <li>{{val.facebook}}</li>
+  </ul>
+
+</ul>
+
+<!-- style binding-->
+<h1 [style.color]="color1" [style.backgroundColor]="bgcolor1" >my style Binding </h1>
+<button (click)="change()">click me</button>
+
+<!--toggle-->
+<br><br>
+<h1 *ngIf="display">heading Tag</h1>
+
+<button (click)="toggle()">Toggle</button>
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+<mat-slide-toggle min="1" max="1000" step="1" value="1" >Toggle me!</mat-slide-toggle>
+
+<div class="example-button-row">
+  <button mat-raised-button>Basic</button>
+  <button mat-raised-button color="primary">Primary</button>
+  <button mat-raised-button color="accent">Accent</button>
+  <button mat-raised-button color="warn">Warn</button>
+  <button mat-raised-button disabled>Disabled</button>
+  <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+</div>
+

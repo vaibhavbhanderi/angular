@@ -1,0 +1,67 @@
+<!--<h1>{{title}}</h1>-->
+<!--<input placeholder="Enter Your Todo" #task>-->
+<!--<button (click)="addtask(task.value)">click Me</button>-->
+
+<!--<ul *ngFor="let item of list">-->
+<!--  <li>{{item.name}} <button (click)="remove(item.id)">Remove</button> </li>-->
+<!--</ul>-->
+
+<!--<app-child [item]="data" ></app-child>-->
+
+<!--<button (click)="update()">Update Child Component</button>-->
+<!-- perent to child-->
+<!--<ul *ngFor="let user of userDetails">-->
+
+<!--  <app-child [item]='user'></app-child>-->
+<!--</ul>-->
+
+<!--child to parent-->
+<!--<app-child (updateDataEvent)="updatedata1($event)"></app-child>-->
+<!--<h3>{{data}}</h3>-->
+
+
+<!--two way binding-->
+<!--<input type="text" [(ngModel)]="name"/>-->
+<!--<h2>{{name}}</h2>-->
+
+<!--template reference variable-->
+<!--<input type="text" placeholder="Enter your name" name="name" #box>-->
+<!--<button (click)="getval(box)">Press Me</button>-->
+
+
+<!-- pipes -->
+<!--<h1>{{title |uppercase}}</h1>-->
+<!--<h2>{{today | date:"mm:ss"}}</h2>-->
+<!--<h1>{{title | slice:5:9}}</h1>-->
+<!--<h3>{{users |json}}</h3>-->
+<!--<h1>{{0000000002.34589631125|number:'3.2-3'}}</h1>-->
+<!--<h1>{{500|currency:"USD"}}</h1>-->
+<!--&lt;!&ndash;custom pipe&ndash;&gt;-->
+<!--<h1>{{50|usdinr:70}}</h1>-->
+
+
+<!-- template driven form-->
+<!--<h1>{{title}}</h1>-->
+<!--<form #loginform="ngForm" (ngSubmit)=loginuser(loginform.controls)>-->
+<!--  <input type="text" placeholder="Enter Name" name="name" ngModel><br><br>-->
+<!--  <input type="password" placeholder="Enter password" name="password" ngModel><br><br>-->
+<!--  <button>login</button>-->
+<!--</form>-->
+
+<!--Reactive form-->
+<!--<h1>{{title}}</h1>-->
+<!--<form [formGroup]="loginForm" (ngSubmit)="userlogin()">-->
+<!--  <input type="text" placeholder="Enter your Name" name="user" formControlName="user">-->
+<!--  <br> <br>-->
+<!--  <input type="password" placeholder="Enter Your Password" name="password" formControlName="password">-->
+<!--  <br><br>-->
+<!--  <button>Login</button>-->
+<!--</form>-->
+
+
+
+<!-- Directives custom example-->
+<h1>{{title}}</h1>
+<h1 appRedel>{{title}}</h1>
+<p>hello</p>
+<p appRedel>hello</p>

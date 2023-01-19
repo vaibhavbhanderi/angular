@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbb67963-8937-4e0f-b158-dd2f2dac96d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frist-project 1 To 25/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frist-project 1 To 25/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frist-project 1 To 25" />
+  </component>
+  <component name="ProjectId" id="2KU9e2B0S4l9fYenjViaSGBYNtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="D:\Angular\frist-project\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbb67963-8937-4e0f-b158-dd2f2dac96d9" name="Default Changelist" comment="" />
+      <created>1674018385878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674018385878</updated>
+      <workItem from="1674018387087" duration="14286000" />
+      <workItem from="1674035339999" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
